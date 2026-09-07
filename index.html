@@ -13,9 +13,10 @@
         <div class="logo">E4All</div>
         <ul class="nav-links">
             <li><a href="#inicio">Inicio</a></li>
-            <li><a href="#sobre">Sobre el Juego</a></li>
-            <li><a href="#equipo">Equipo</a></li>
+            <li><a href="#historia">Historia</a></li>
+            <li><a href="#mecanicas">Mecánicas</a></li>
             <li><a href="#galeria">Galería</a></li>
+            <li><a href="#equipo">Equipo</a></li>
             <li><a href="#descarga" class="btn-nav">Descargar</a></li>
         </ul>
     </nav>
@@ -24,7 +25,6 @@
     <header id="inicio" class="hero">
         <div class="hero-content">
             <h1>E4All</h1>
-            <!-- Espacio para el Logo del Juego -->
             <div class="logo-container">
                 <img src="logo.png" alt="Logo de E4All" class="game-logo">
             </div>
@@ -33,15 +33,73 @@
     </header>
 
     <main>
-        <!-- Sobre el Proyecto -->
+        <!-- Resumen del Proyecto -->
         <section id="sobre" class="card-section">
             <h2>Sobre el Proyecto</h2>
-            <p>E4All es un videojuego interactivo diseñado para brindar una experiencia dinámica y entretenida. Desarrollado con el motor Unity y programado en C#.</p>
+            <p class="large-text">
+                <strong>E4All</strong> es un videojuego interactivo diseñado para ofrecer una experiencia llena de retos, aprendizaje y entretenimiento. 
+                Desarrollado desde cero en el motor <strong>Unity</strong> utilizando programación modular en <strong>C#</strong>, el juego combina mecánicas de exploración, 
+                superación de obstáculos y recolección dentro de niveles cuidadosamente diseñados.
+            </p>
+        </section>
+
+        <!-- Historia / Lore del Juego -->
+        <section id="historia" class="card-section">
+            <h2>Historia y Contexto</h2>
+            <div class="story-content">
+                <div class="story-text">
+                    <p>
+                        En el universo de <strong>E4All</strong>, el jugador se adentra en un mundo lleno de desafíos donde cada escenario representa una prueba de agilidad y toma de decisiones. 
+                        A medida que avanzas, irás descubriendo los misterios que rodean cada entorno y desbloqueando nuevos caminos hacia la victoria.
+                    </p>
+                    <p>
+                        Tu misión principal es recolectar los ítems esenciales regados por el mapa mientras esquivas peligros, resuelves acertijos de terreno y buscas la máxima puntuación para triunfar.
+                    </p>
+                </div>
+                <div class="story-media">
+                    <div class="media-placeholder">
+                        <span>Imagen / Arte de la Historia</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Mecánicas del Juego -->
+        <section id="mecanicas" class="card-section">
+            <h2>Mecánicas y Jugabilidad</h2>
+            <p class="section-desc">E4All integra un sistema de controles intuitivo y dinámico diseñado para mantener la emoción en todo momento:</p>
+            
+            <div class="mechanics-grid">
+                <div class="mechanic-card">
+                    <div class="mechanic-icon-box">Imagen / Banner Mecánica 1</div>
+                    <h3>Movimiento y Controles</h3>
+                    <p>Sistema de desplazamiento fluido que permite esquivar obstáculos, saltar plataformas y explorar libremente el mapa.</p>
+                </div>
+
+                <div class="mechanic-card">
+                    <div class="mechanic-icon-box">Imagen / Banner Mecánica 2</div>
+                    <h3>Sistema de Recolección</h3>
+                    <p>Encuentra monedas e ítems especiales repartidos en cada nivel para incrementar tu puntuación y alcanzar el objetivo.</p>
+                </div>
+
+                <div class="mechanic-card">
+                    <div class="mechanic-icon-box">Imagen / Banner Mecánica 3</div>
+                    <h3>Obstáculos y Desafíos</h3>
+                    <p>Enfréntate a trampa visuales y elementos interactivos que pondrán a prueba tus reflejos y estrategia de juego.</p>
+                </div>
+
+                <div class="mechanic-card">
+                    <div class="mechanic-icon-box">Imagen / Banner Mecánica 4</div>
+                    <h3>Progresión y Niveles</h3>
+                    <p>Supera cada escenario completando las condiciones de victoria necesarias para avanzar a nuevos desafíos.</p>
+                </div>
+            </div>
         </section>
 
         <!-- Galería de Capturas -->
         <section id="galeria" class="card-section">
             <h2>Galería del Juego</h2>
+            <p class="section-desc">Capturas directas de la experiencia de juego dentro de Unity:</p>
             <div class="gallery-grid">
                 <div class="gallery-placeholder">Captura de Pantalla 1</div>
                 <div class="gallery-placeholder">Captura de Pantalla 2</div>
@@ -88,10 +146,10 @@
             </div>
         </section>
 
-        <!-- Descarga -->
+        <!-- Zona de Descarga -->
         <section id="descarga" class="card-section download-box">
             <h2>¡Juega Ahora!</h2>
-            <p>Descarga la última versión ejecutable para PC Windows:</p>
+            <p>Descarga la versión ejecutable oficial para PC Windows y vive la experiencia completa:</p>
             <a href="#" class="btn-download" target="_blank">Descargar E4All (.exe)</a>
         </section>
     </main>

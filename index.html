@@ -13,85 +13,172 @@
         <div class="logo">E4All</div>
         <ul class="nav-links">
             <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#consiste">¿En qué consiste?</a></li>
+            <li><a href="#objetivos">Objetivos</a></li>
             <li><a href="#historia">Historia</a></li>
             <li><a href="#mecanicas">Mecánicas</a></li>
-            <li><a href="#galeria">Galería</a></li>
+            <li><a href="#colores">Identidad Visual</a></li>
             <li><a href="#equipo">Equipo</a></li>
             <li><a href="#descarga" class="btn-nav">Descargar</a></li>
         </ul>
     </nav>
 
-    <!-- Header / Portada -->
+    <!-- Header / Portada con Robot al lado derecho -->
     <header id="inicio" class="hero">
-        <div class="hero-content">
-            <h1>E4All</h1>
-            <div class="logo-container">
-                <img src="logo.png" alt="Logo de E4All" class="game-logo">
+        <div class="hero-container">
+            <div class="hero-text">
+                <h1>E4All</h1>
+                <div class="logo-container">
+                    <img src="logo.png" alt="Logo de E4All" class="game-logo">
+                </div>
+                <p class="tagline">Una experiencia interactiva y dinámica desarrollada en Unity</p>
+                <a href="#descarga" class="btn-hero">¡Jugar Ahora!</a>
             </div>
-            <p class="tagline">Una experiencia interactiva y dinámica desarrollada en Unity</p>
+            
+            <!-- Espacio reservado para el Robot al lado derecho -->
+            <div class="hero-character">
+                <div class="character-placeholder">
+                    <img src="robot.png" alt="Robot Personaje E4All" class="robot-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                    <div class="fallback-placeholder" style="display:none;">
+                        <span>Espacio para Robot / Personaje<br><small>(robot.png)</small></span>
+                    </div>
+                </div>
+            </div>
         </div>
     </header>
 
     <main>
-        <!-- Resumen del Proyecto -->
-        <section id="sobre" class="card-section">
-            <h2>Sobre el Proyecto</h2>
-            <p class="large-text">
-                <strong>E4All</strong> es un videojuego interactivo diseñado para ofrecer una experiencia llena de retos, aprendizaje y entretenimiento. 
-                Desarrollado desde cero en el motor <strong>Unity</strong> utilizando programación modular en <strong>C#</strong>, el juego combina mecánicas de exploración, 
-                superación de obstáculos y recolección dentro de niveles cuidadosamente diseñados.
-            </p>
-        </section>
-
-        <!-- Historia / Lore del Juego -->
-        <section id="historia" class="card-section">
-            <h2>Historia y Contexto</h2>
-            <div class="story-content">
-                <div class="story-text">
-                    <p>
-                        En el universo de <strong>E4All</strong>, el jugador se adentra en un mundo lleno de desafíos donde cada escenario representa una prueba de agilidad y toma de decisiones. 
-                        A medida que avanzas, irás descubriendo los misterios que rodean cada entorno y desbloqueando nuevos caminos hacia la victoria.
+        <!-- ¿En qué consiste el juego? -->
+        <section id="consiste" class="card-section">
+            <h2>¿En qué consiste el juego?</h2>
+            <div class="content-with-image">
+                <div class="text-block">
+                    <p class="large-text">
+                        <strong>E4All</strong> es una propuesta interactiva de plataformas y superación de retos en 2D/3D desarrollada en <strong>Unity</strong>.
                     </p>
                     <p>
-                        Tu misión principal es recolectar los ítems esenciales regados por el mapa mientras esquivas peligros, resuelves acertijos de terreno y buscas la máxima puntuación para triunfar.
+                        El juego consiste en guiar a nuestro héroe robótico a través de diferentes sectores cargados de trampas, acertijos mecánicos e ítems recolectables. 
+                        El jugador deberá poner a prueba sus reflejos, precisión de salto y pensamiento lógico para superar las adversidades de cada nivel y restaurar el control en la estación.
                     </p>
                 </div>
-                <div class="story-media">
+                <div class="image-box">
                     <div class="media-placeholder">
-                        <span>Imagen / Arte de la Historia</span>
+                        <span>Imagen del Juego en Acción</span>
                     </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Objetivos del Juego -->
+        <section id="objetivos" class="card-section">
+            <h2>Objetivos del Juego</h2>
+            <div class="goals-grid">
+                <div class="goal-card">
+                    <div class="goal-icon">🎯</div>
+                    <h3>Objetivo Principal</h3>
+                    <p>Completar cada nivel recolectando la cantidad mínima de energía necesaria para desbloquear la puerta de salida hacia el siguiente sector.</p>
+                </div>
+
+                <div class="goal-card">
+                    <div class="goal-icon">💎</div>
+                    <h3>Coleccionables Mínimos</h3>
+                    <p>Encontrar las monedas e ítems secretos escondidos en zonas de difícil acceso para conseguir la máxima calificación (3 estrellas).</p>
+                </div>
+
+                <div class="goal-card">
+                    <div class="goal-icon">⚡</div>
+                    <h3>Supervivencia y Tiempo</h3>
+                    <p>Esquivar obstáculos mortales, sierras y zonas electrificadas mientras mantienes un tiempo récord de superación.</p>
+                </div>
+            </div>
+            
+            <div class="section-image-banner">
+                <div class="media-placeholder banner-height">
+                    <span>Banner Visual de Objetivos e Ítems</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Historia y Contexto -->
+        <section id="historia" class="card-section">
+            <h2>Historia y Contexto</h2>
+            <div class="content-with-image">
+                <div class="image-box">
+                    <div class="media-placeholder">
+                        <span>Arte Conceptualmente de la Historia</span>
+                    </div>
+                </div>
+                <div class="text-block">
+                    <p>
+                        En un futuro donde los complejos cibernéticos han quedado fuera de control, un pequeño robot explorador despierta con una misión clara: reconfigurar los sistemas centrales.
+                    </p>
+                    <p>
+                        A medida que avanzas por las zonas olvidadas del complejo, irás descubriendo registros de información que revelan qué ocurrió con las instalaciones y cómo la tecnología puede ser restaurada.
+                    </p>
                 </div>
             </div>
         </section>
 
         <!-- Mecánicas del Juego -->
         <section id="mecanicas" class="card-section">
-            <h2>Mecánicas y Jugabilidad</h2>
-            <p class="section-desc">E4All integra un sistema de controles intuitivo y dinámico diseñado para mantener la emoción en todo momento:</p>
+            <h2>Mecánicas de Jugabilidad</h2>
+            <p class="section-desc">E4All integra un sistema de controles dinámico programado en C#:</p>
             
             <div class="mechanics-grid">
                 <div class="mechanic-card">
-                    <div class="mechanic-icon-box">Imagen / Banner Mecánica 1</div>
-                    <h3>Movimiento y Controles</h3>
-                    <p>Sistema de desplazamiento fluido que permite esquivar obstáculos, saltar plataformas y explorar libremente el mapa.</p>
+                    <div class="mechanic-icon-box">Imagen Movimiento</div>
+                    <h3>Movimiento Fluido</h3>
+                    <p>Desplazamiento ágil, saltos precisos y físicas ajustadas para un control total del robot.</p>
                 </div>
 
                 <div class="mechanic-card">
-                    <div class="mechanic-icon-box">Imagen / Banner Mecánica 2</div>
-                    <h3>Sistema de Recolección</h3>
-                    <p>Encuentra monedas e ítems especiales repartidos en cada nivel para incrementar tu puntuación y alcanzar el objetivo.</p>
+                    <div class="mechanic-icon-box">Imagen Recolección</div>
+                    <h3>Recolección de Energía</h3>
+                    <p>Monedas y baterías dispersas que aumentan tu puntaje y activan mecanismos del mapa.</p>
                 </div>
 
                 <div class="mechanic-card">
-                    <div class="mechanic-icon-box">Imagen / Banner Mecánica 3</div>
-                    <h3>Obstáculos y Desafíos</h3>
-                    <p>Enfréntate a trampa visuales y elementos interactivos que pondrán a prueba tus reflejos y estrategia de juego.</p>
+                    <div class="mechanic-icon-box">Imagen Obstáculos</div>
+                    <h3>Peligros Ambientales</h3>
+                    <p>Sierras, plataformas móviles y campos de fuerza que requieren precisión para ser esquivados.</p>
                 </div>
 
                 <div class="mechanic-card">
-                    <div class="mechanic-icon-box">Imagen / Banner Mecánica 4</div>
-                    <h3>Progresión y Niveles</h3>
-                    <p>Supera cada escenario completando las condiciones de victoria necesarias para avanzar a nuevos desafíos.</p>
+                    <div class="mechanic-icon-box">Imagen Checkpoints</div>
+                    <h3>Puntos de Control</h3>
+                    <p>Guarda tu progreso durante el nivel para reiniciar desde el último punto seguro al fallar.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Colores Representativos / Identidad Visual -->
+        <section id="colores" class="card-section">
+            <h2>Colores Representativos</h2>
+            <p class="section-desc">El diseño visual del juego se basa en una paleta futurista y tecnológica:</p>
+            
+            <div class="color-palette-grid">
+                <div class="color-card">
+                    <div class="color-swatch" style="background-color: #00d2ff;"></div>
+                    <h3>Azul Neón</h3>
+                    <p>Representa la energía del robot, la tecnología activa y la interfaz principal del usuario.</p>
+                </div>
+
+                <div class="color-card">
+                    <div class="color-swatch" style="background-color: #7b2cbf;"></div>
+                    <h3>Púrpura Eléctrico</h3>
+                    <p>Utilizado para los entornos oscuros, misterios del mapa y elementos cibernéticos.</p>
+                </div>
+
+                <div class="color-card">
+                    <div class="color-swatch" style="background-color: #28a745;"></div>
+                    <h3>Verde Victoria</h3>
+                    <p>Indica puntos de control guardados, zonas de éxito e ítems curativos o especiales.</p>
+                </div>
+
+                <div class="color-card">
+                    <div class="color-swatch" style="background-color: #1a1d2e;"></div>
+                    <h3>Gris Metálico</h3>
+                    <p>Forma la estructura de las plataformas, superficies metálicas y fondo del complejo.</p>
                 </div>
             </div>
         </section>
@@ -99,11 +186,11 @@
         <!-- Galería de Capturas -->
         <section id="galeria" class="card-section">
             <h2>Galería del Juego</h2>
-            <p class="section-desc">Capturas directas de la experiencia de juego dentro de Unity:</p>
+            <p class="section-desc">Capturas directas de la experiencia en Unity:</p>
             <div class="gallery-grid">
-                <div class="gallery-placeholder">Captura de Pantalla 1</div>
-                <div class="gallery-placeholder">Captura de Pantalla 2</div>
-                <div class="gallery-placeholder">Captura de Pantalla 3</div>
+                <div class="gallery-placeholder">Captura / Nivel 1</div>
+                <div class="gallery-placeholder">Captura / Nivel 2</div>
+                <div class="gallery-placeholder">Captura / Menú & UI</div>
             </div>
         </section>
 

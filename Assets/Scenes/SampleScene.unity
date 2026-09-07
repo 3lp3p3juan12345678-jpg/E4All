@@ -131,7 +131,7 @@ GameObject:
   - component: {fileID: 2976766}
   m_Layer: 0
   m_Name: DeadZone
-  m_TagString: Checkpoint
+  m_TagString: DeadZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7123,7 +7123,7 @@ GameObject:
   - component: {fileID: 53585733}
   m_Layer: 0
   m_Name: DeadZone
-  m_TagString: Checkpoint
+  m_TagString: DeadZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19014,7 +19014,7 @@ GameObject:
   - component: {fileID: 163130691}
   m_Layer: 0
   m_Name: DeadZone
-  m_TagString: Checkpoint
+  m_TagString: DeadZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -106883,7 +106883,7 @@ GameObject:
   - component: {fileID: 882431746}
   m_Layer: 0
   m_Name: DeadZone
-  m_TagString: Checkpoint
+  m_TagString: DeadZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -159689,7 +159689,7 @@ GameObject:
   - component: {fileID: 1356663421}
   m_Layer: 0
   m_Name: DeadZone
-  m_TagString: Checkpoint
+  m_TagString: DeadZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -227530,7 +227530,7 @@ GameObject:
   - component: {fileID: 1929935927}
   m_Layer: 0
   m_Name: DeadZone
-  m_TagString: Checkpoint
+  m_TagString: DeadZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -233993,7 +233993,7 @@ GameObject:
   - component: {fileID: 2003277857}
   m_Layer: 0
   m_Name: DeadZone
-  m_TagString: Checkpoint
+  m_TagString: DeadZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

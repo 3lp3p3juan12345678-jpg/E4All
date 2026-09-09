@@ -32,7 +32,6 @@
                     <img src="logo.png" alt="Logo de E4All" class="game-logo">
                 </div>
                 <p class="tagline">Una experiencia interactiva y dinámica desarrollada en Unity</p>
-                <a href="#descarga" class="btn-hero">¡Jugar Ahora!</a>
             </div>
             
             <!-- Espacio reservado para el Robot al lado derecho -->
@@ -54,11 +53,13 @@
             <div class="content-with-image">
                 <div class="text-block">
                     <p class="large-text">
-                        <strong>E4All</strong> es una propuesta interactiva de plataformas y superación de retos en 2D/3D desarrollada en <strong>Unity</strong>.
+                        <strong>E4All</strong> es un juego educativo en 3D desarrollado en <strong>Unity</strong>, pensado para que niños, jóvenes y adultos puedan medir su nivel de conocimiento a través de preguntas generales, de una forma dinámica y entretenida.
                     </p>
                     <p>
-                        El juego consiste en guiar a nuestro héroe robótico a través de diferentes sectores cargados de trampas, acertijos mecánicos e ítems recolectables. 
-                        El jugador deberá poner a prueba sus reflejos, precisión de salto y pensamiento lógico para superar las adversidades de cada nivel y restaurar el control en la estación.
+                        La mecánica principal se basa en <strong>abrir puertas</strong>: cada puerta representa una posible respuesta a una pregunta, y el jugador debe elegir la correcta para avanzar. En el camino encontrarás <strong>checkpoints</strong> para guardar tu progreso y podrás ganar <strong>trofeos</strong> a medida que superas cada reto. Cuentas con <strong>3 vidas</strong> en total, así que cada respuesta cuenta.
+                    </p>
+                    <p>
+                        Las pruebas están organizadas en <strong>3 niveles de dificultad: fácil, intermedio y difícil</strong>, para que cualquier jugador (sin importar su edad o nivel) pueda poner a prueba sus conocimientos a su propio ritmo.
                     </p>
                 </div>
                 <div class="image-box">
@@ -74,27 +75,21 @@
             <h2>Objetivos del Juego</h2>
             <div class="goals-grid">
                 <div class="goal-card">
-                    <div class="goal-icon">🎯</div>
-                    <h3>Objetivo Principal</h3>
-                    <p>Completar cada nivel recolectando la cantidad mínima de energía necesaria para desbloquear la puerta de salida hacia el siguiente sector.</p>
+                    <div class="goal-icon">🚪</div>
+                    <h3>Elegir la puerta correcta</h3>
+                    <p>Ante cada pregunta general aparecen 4 puertas, cada una representa una posible respuesta. Debes entrar por la puerta que crees correcta para avanzar.</p>
                 </div>
 
                 <div class="goal-card">
-                    <div class="goal-icon">💎</div>
-                    <h3>Coleccionables Mínimos</h3>
-                    <p>Encontrar las monedas e ítems secretos escondidos en zonas de difícil acceso para conseguir la máxima calificación (3 estrellas).</p>
+                    <div class="goal-icon">🏆</div>
+                    <h3>Ganar trofeos</h3>
+                    <p>A medida que avanzas por los pasillos vas ganando trofeos (los coleccionables del juego) como recompensa por tu progreso, visibles en la mesa de la sala central.</p>
                 </div>
 
                 <div class="goal-card">
-                    <div class="goal-icon">⚡</div>
-                    <h3>Supervivencia y Tiempo</h3>
-                    <p>Esquivar obstáculos mortales, sierras y zonas electrificadas mientras mantienes un tiempo récord de superación.</p>
-                </div>
-            </div>
-            
-            <div class="section-image-banner">
-                <div class="media-placeholder banner-height">
-                    <span>Banner Visual de Objetivos e Ítems</span>
+                    <div class="goal-icon">🧠</div>
+                    <h3>Superar los 3 niveles de dificultad</h3>
+                    <p>Pon a prueba tu conocimiento avanzando por las secciones fácil, intermedia y difícil, respondiendo correctamente para no perder vidas.</p>
                 </div>
             </div>
         </section>
@@ -110,10 +105,10 @@
                 </div>
                 <div class="text-block">
                     <p>
-                        En un futuro donde los complejos cibernéticos han quedado fuera de control, un pequeño robot explorador despierta con una misión clara: reconfigurar los sistemas centrales.
+                        Todo comienza en una <strong>sala central</strong> desde la cual se abren varias puertas, cada una conectada a un pasillo distinto lleno de preguntas generales. En esa misma sala hay una <strong>mesa</strong> donde el jugador puede ver los <strong>trofeos/coleccionables</strong> que ha ganado hasta el momento.
                     </p>
                     <p>
-                        A medida que avanzas por las zonas olvidadas del complejo, irás descubriendo registros de información que revelan qué ocurrió con las instalaciones y cómo la tecnología puede ser restaurada.
+                        A medida que avanzas por cada pasillo, tu conocimiento es puesto a prueba: elige bien y sigue avanzando; elige mal y pierdes una vida. Al llegar al final de un pasillo, un <strong>portal</strong> te regresa a la sala central para continuar tu recorrido y seguir retando tu nivel de conocimiento.
                     </p>
                 </div>
             </div>
@@ -122,31 +117,31 @@
         <!-- Mecánicas del Juego -->
         <section id="mecanicas" class="card-section">
             <h2>Mecánicas de Jugabilidad</h2>
-            <p class="section-desc">E4All integra un sistema de controles dinámico programado en C#:</p>
+            <p class="section-desc">E4All integra un sistema de preguntas y progresión programado en C#:</p>
             
             <div class="mechanics-grid">
                 <div class="mechanic-card">
-                    <div class="mechanic-icon-box">Imagen Movimiento</div>
-                    <h3>Movimiento Fluido</h3>
-                    <p>Desplazamiento ágil, saltos precisos y físicas ajustadas para un control total del robot.</p>
+                    <div class="mechanic-icon-box">Imagen Puertas</div>
+                    <h3>Sistema de 4 Puertas</h3>
+                    <p>Cada pregunta general se responde eligiendo entre 4 puertas, cada una representa una respuesta posible.</p>
                 </div>
 
                 <div class="mechanic-card">
-                    <div class="mechanic-icon-box">Imagen Recolección</div>
-                    <h3>Recolección de Energía</h3>
-                    <p>Monedas y baterías dispersas que aumentan tu puntaje y activan mecanismos del mapa.</p>
-                </div>
-
-                <div class="mechanic-card">
-                    <div class="mechanic-icon-box">Imagen Obstáculos</div>
-                    <h3>Peligros Ambientales</h3>
-                    <p>Sierras, plataformas móviles y campos de fuerza que requieren precisión para ser esquivados.</p>
+                    <div class="mechanic-icon-box">Imagen Vidas</div>
+                    <h3>Sistema de Vidas</h3>
+                    <p>Elegir la puerta incorrecta resta una vida; responder bien te deja avanzar a la siguiente pregunta.</p>
                 </div>
 
                 <div class="mechanic-card">
                     <div class="mechanic-icon-box">Imagen Checkpoints</div>
-                    <h3>Puntos de Control</h3>
-                    <p>Guarda tu progreso durante el nivel para reiniciar desde el último punto seguro al fallar.</p>
+                    <h3>Checkpoints</h3>
+                    <p>Guarda tu progreso durante el recorrido para no perder el avance conseguido dentro de cada pasillo.</p>
+                </div>
+
+                <div class="mechanic-card">
+                    <div class="mechanic-icon-box">Imagen Trofeos</div>
+                    <h3>Trofeos</h3>
+                    <p>Consigue trofeos —los coleccionables del juego— a medida que avanzas; podrás verlos en la mesa de la sala central.</p>
                 </div>
             </div>
         </section>
@@ -197,7 +192,7 @@
         <!-- Equipo de Desarrollo (6 Integrantes) -->
         <section id="equipo" class="card-section">
             <h2>Equipo de Desarrollo</h2>
-            <p class="team-subtitle">Creado por <strong>Byte & Design</strong></p>
+            <p class="team-subtitle">Creado por <strong>NovaDash</strong></p>
             
             <div class="team-grid">
                 <div class="team-card">
@@ -242,7 +237,7 @@
     </main>
 
     <footer>
-        <p>Desarrollado por el equipo <strong>Byte & Design</strong> &copy; 2026</p>
+        <p>Desarrollado por el equipo <strong>NovaDash</strong> &copy; 2026</p>
     </footer>
 
 </body>

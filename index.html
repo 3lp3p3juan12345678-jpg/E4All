@@ -423,8 +423,26 @@
         <p>Desarrollado por el equipo <strong>NovaDash</strong> &copy; 2026</p>
     </footer>
 
+    <!-- Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/10.13.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.13.0/firebase-firestore-compat.js"></script>
+
     <!-- Scripts de Interacción -->
     <script>
+        // Configuración e inicialización de Firebase
+        const firebaseConfig = {
+            apiKey: "AIzaSyDFi6Zdz-OiRRso0_4QaV76MP7C-LrSEGs",
+            authDomain: "e4all-a2eab.firebaseapp.com",
+            projectId: "e4all-a2eab",
+            storageBucket: "e4all-a2eab.firebasestorage.app",
+            messagingSenderId: "102356556335",
+            appId: "1:102356556335:web:6c39941759426d721dc4da",
+            measurementId: "G-N1CBZW2NCL"
+        };
+        firebase.initializeApp(firebaseConfig);
+        const db = firebase.firestore();
+        const reviewsRef = db.collection("reviews");
+
         // Modal de imágenes
         const modal = document.getElementById("imageModal");
         const modalImg = document.getElementById("modalImg");

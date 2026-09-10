@@ -22,6 +22,8 @@ body {
     top: 0;
     z-index: 1000;
     box-shadow: 0 4px 15px rgba(0,0,0,0.6);
+    flex-wrap: wrap;
+    gap: 15px;
 }
 
 .navbar .logo {
@@ -34,17 +36,18 @@ body {
 .nav-links {
     list-style: none;
     display: flex;
-    gap: 15px;
+    gap: 12px;
     margin: 0;
     padding: 0;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .nav-links a {
     color: #ffffff;
     text-decoration: none;
     font-weight: 500;
-    font-size: 0.95rem;
+    font-size: 0.9rem;
     transition: color 0.3s;
 }
 
@@ -54,7 +57,7 @@ body {
 
 .btn-nav {
     background-color: #007acc;
-    padding: 8px 18px;
+    padding: 6px 14px;
     border-radius: 6px;
     font-weight: bold !important;
 }
@@ -111,22 +114,6 @@ body {
     margin-bottom: 25px;
 }
 
-.btn-hero {
-    display: inline-block;
-    background-color: #00d2ff;
-    color: #0b0d17;
-    padding: 12px 28px;
-    border-radius: 6px;
-    font-weight: bold;
-    text-decoration: none;
-    transition: transform 0.2s, background-color 0.3s;
-}
-
-.btn-hero:hover {
-    background-color: #00b4db;
-    transform: translateY(-2px);
-}
-
 /* Espacio del Robot en el Header */
 .hero-character {
     flex: 1;
@@ -161,11 +148,6 @@ body {
 
 .robot-img:hover {
     transform: scale(1.05);
-}
-
-.fallback-placeholder span {
-    color: #00d2ff;
-    font-weight: 500;
 }
 
 /* Main Container */
@@ -241,24 +223,6 @@ main {
 
 .section-img:hover {
     transform: scale(1.05);
-}
-
-.media-placeholder {
-    width: 100%;
-    height: 200px;
-    background-color: #1b2036;
-    border: 2px dashed #00d2ff;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #6c7895;
-    font-size: 0.95rem;
-}
-
-.banner-height {
-    height: 160px;
-    margin-top: 25px;
 }
 
 /* Objetivos Grid */
@@ -488,18 +452,6 @@ main {
     font-size: 0.9rem;
     margin-bottom: 15px;
     overflow: hidden;
-}
-
-.member-photo img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: transform 0.3s ease;
-    cursor: pointer;
-}
-
-.member-photo img:hover {
-    transform: scale(1.08);
 }
 
 .team-card h3 {

@@ -210,6 +210,18 @@ main {
 .image-box {
     flex: 1;
     min-width: 280px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Estilo para las imágenes generales de sección (ej. juego-accion.png, sala-central.png) */
+.section-img {
+    width: 100%;
+    max-width: 480px;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+    object-fit: cover;
 }
 
 .media-placeholder {
@@ -279,16 +291,21 @@ main {
 
 .mechanic-icon-box {
     width: 100%;
-    height: 110px;
+    height: 140px;
     background-color: #121526;
-    border: 1px dashed #00d2ff;
+    border: 1px solid #28304f;
     border-radius: 8px;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #6c7895;
-    font-size: 0.85rem;
     margin-bottom: 15px;
+    overflow: hidden;
+}
+
+.mechanic-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .mechanic-card h3 {
@@ -343,8 +360,28 @@ main {
 /* Galería Grid */
 .gallery-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 20px;
+}
+
+.gallery-item {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 10px;
+    border: 1px solid #28304f;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.gallery-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.gallery-img:hover {
+    transform: scale(1.05);
 }
 
 .gallery-placeholder {

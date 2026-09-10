@@ -97,6 +97,12 @@ body {
     max-width: 180px;
     height: auto;
     border-radius: 10px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.game-logo:hover {
+    transform: scale(1.05);
 }
 
 .tagline {
@@ -149,6 +155,12 @@ body {
     object-fit: cover;
     object-position: top;
     border-radius: 14px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.robot-img:hover {
+    transform: scale(1.05);
 }
 
 .fallback-placeholder span {
@@ -212,9 +224,10 @@ main {
     min-width: 280px;
     display: flex;
     justify-content: center;
+    overflow: hidden;
+    border-radius: 12px;
 }
 
-/* Estilo para las imágenes generales de sección (ej. juego-accion.png, sala-central.png) */
 .section-img {
     width: 100%;
     max-width: 480px;
@@ -222,6 +235,12 @@ main {
     border-radius: 12px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
     object-fit: cover;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.section-img:hover {
+    transform: scale(1.05);
 }
 
 .media-placeholder {
@@ -306,6 +325,12 @@ main {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.mechanic-img:hover {
+    transform: scale(1.08);
 }
 
 .mechanic-card h3 {
@@ -378,22 +403,57 @@ main {
     height: 100%;
     object-fit: cover;
     transition: transform 0.3s ease;
+    cursor: pointer;
 }
 
 .gallery-img:hover {
-    transform: scale(1.05);
+    transform: scale(1.08);
 }
 
-.gallery-placeholder {
-    background-color: #1c2138;
-    border: 2px dashed #00d2ff;
-    padding: 60px 10px;
+/* Modal / Lightbox flotante para imágenes */
+.image-modal {
+    display: none;
+    position: fixed;
+    z-index: 2000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.85);
+    backdrop-filter: blur(5px);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    max-width: 90%;
+    max-height: 85vh;
     border-radius: 10px;
-    color: #6c7895;
-    text-align: center;
+    box-shadow: 0 0 25px rgba(0, 210, 255, 0.3);
+    animation: zoomIn 0.25s ease-out;
 }
 
-/* Equipo Grid (6 Miembros) */
+.modal-close {
+    position: absolute;
+    top: 20px;
+    right: 35px;
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.modal-close:hover {
+    color: #00d2ff;
+}
+
+@keyframes zoomIn {
+    from { transform: scale(0.7); opacity: 0; }
+    to { transform: scale(1); opacity: 1; }
+}
+
+/* Equipo Grid */
 .team-subtitle {
     font-size: 1.1rem;
     color: #9aa2b5;
@@ -427,6 +487,19 @@ main {
     color: #6c7895;
     font-size: 0.9rem;
     margin-bottom: 15px;
+    overflow: hidden;
+}
+
+.member-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.member-photo img:hover {
+    transform: scale(1.08);
 }
 
 .team-card h3 {

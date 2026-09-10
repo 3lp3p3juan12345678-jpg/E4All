@@ -29,14 +29,14 @@
             <div class="hero-text">
                 <h1>E4All</h1>
                 <div class="logo-container">
-                    <img src="logo.png" alt="Logo de E4All" class="game-logo">
+                    <img src="logo.png" alt="Logo de E4All" class="game-logo modal-trigger">
                 </div>
                 <p class="tagline">Una experiencia interactiva y dinámica desarrollada en Unity</p>
             </div>
             
             <div class="hero-character">
                 <div class="character-placeholder">
-                    <img src="robot.jpeg" alt="Robot Personaje E4All" class="robot-img">
+                    <img src="robot.jpeg" alt="Robot Personaje E4All" class="robot-img modal-trigger">
                 </div>
             </div>
         </div>
@@ -70,7 +70,7 @@
                     </p>
                 </div>
                 <div class="image-box">
-                    <img src="juego-accion.png" alt="Juego en Acción" class="section-img">
+                    <img src="juego-accion.png" alt="Juego en Acción" class="section-img modal-trigger">
                 </div>
             </div>
         </section>
@@ -134,7 +134,7 @@
             <h2>Historia y Contexto</h2>
             <div class="content-with-image">
                 <div class="image-box">
-                    <img src="sala-central.png" alt="Sala Central" class="section-img">
+                    <img src="sala-central.png" alt="Sala Central" class="section-img modal-trigger">
                 </div>
                 <div class="text-block">
                     <p>
@@ -155,7 +155,7 @@
             <div class="mechanics-grid">
                 <div class="mechanic-card">
                     <div class="mechanic-icon-box">
-                        <img src="puertas.png" alt="Mecánica de Puertas" class="mechanic-img">
+                        <img src="puertas.png" alt="Mecánica de Puertas" class="mechanic-img modal-trigger">
                     </div>
                     <h3>Sistema de 4 Puertas</h3>
                     <p>Cada pregunta general se responde eligiendo entre 4 puertas, cada una representa una respuesta posible.</p>
@@ -163,7 +163,7 @@
 
                 <div class="mechanic-card">
                     <div class="mechanic-icon-box">
-                        <img src="vidas.png" alt="Sistema de Vidas" class="mechanic-img">
+                        <img src="vidas.png" alt="Sistema de Vidas" class="mechanic-img modal-trigger">
                     </div>
                     <h3>Sistema de Vidas</h3>
                     <p>Elegir la puerta incorrecta resta una vida; responder bien te deja avanzar a la siguiente pregunta.</p>
@@ -171,7 +171,7 @@
 
                 <div class="mechanic-card">
                     <div class="mechanic-icon-box">
-                        <img src="checkpoint.png" alt="Checkpoints" class="mechanic-img">
+                        <img src="checkpoint.png" alt="Checkpoints" class="mechanic-img modal-trigger">
                     </div>
                     <h3>Checkpoints</h3>
                     <p>Guarda tu progreso durante el recorrido para no perder el avance conseguido dentro de cada pasillo.</p>
@@ -179,7 +179,7 @@
 
                 <div class="mechanic-card">
                     <div class="mechanic-icon-box">
-                        <img src="trofeos.png" alt="Trofeos Coleccionables" class="mechanic-img">
+                        <img src="trofeos.png" alt="Trofeos Coleccionables" class="mechanic-img modal-trigger">
                     </div>
                     <h3>Trofeos</h3>
                     <p>Consigue trofeos —los coleccionables del juego— a medida que avanzas; podrás verlos en la mesa de la sala central.</p>
@@ -225,13 +225,13 @@
             <p class="section-desc">Capturas directas de la experiencia en Unity:</p>
             <div class="gallery-grid">
                 <div class="gallery-item">
-                    <img src="captura-directa-1.png" alt="Captura del Juego 1" class="gallery-img">
+                    <img src="captura-directa-1.png" alt="Captura del Juego 1" class="gallery-img modal-trigger">
                 </div>
                 <div class="gallery-item">
-                    <img src="captura-directa-2.png" alt="Captura del Juego 2" class="gallery-img">
+                    <img src="captura-directa-2.png" alt="Captura del Juego 2" class="gallery-img modal-trigger">
                 </div>
                 <div class="gallery-item">
-                    <img src="captura-directa-3.png" alt="Captura del Juego 3" class="gallery-img">
+                    <img src="captura-directa-3.png" alt="Captura del Juego 3" class="gallery-img modal-trigger">
                 </div>
             </div>
         </section>
@@ -306,9 +306,38 @@
         </section>
     </main>
 
+    <!-- Modal / Visor de Imágenes Integrado -->
+    <div id="imageModal" class="image-modal">
+        <span class="modal-close">&times;</span>
+        <img class="modal-content" id="modalImg" alt="Imagen ampliada">
+    </div>
+
     <footer>
         <p>Desarrollado por el equipo <strong>NovaDash</strong> &copy; 2026</p>
     </footer>
 
+    <!-- Script para abrir la imagen ahí mismo -->
+    <script>
+        const modal = document.getElementById("imageModal");
+        const modalImg = document.getElementById("modalImg");
+        const closeBtn = document.getElementsByClassName("modal-close")[0];
+
+        document.querySelectorAll(".modal-trigger").forEach(img => {
+            img.addEventListener("click", function() {
+                modal.style.display = "flex";
+                modalImg.src = this.src;
+            });
+        });
+
+        closeBtn.onclick = function() {
+            modal.style.display = "none";
+        };
+
+        modal.onclick = function(e) {
+            if (e.target !== modalImg) {
+                modal.style.display = "none";
+            }
+        };
+    </script>
 </body>
 </html>

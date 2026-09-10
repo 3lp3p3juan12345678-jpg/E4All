@@ -305,52 +305,6 @@
             </div>
         </section>
 
-        <!-- Seccion de Valoración y Comentarios (Sin campo de correo) -->
-        <section id="valoracion" class="card-section">
-            <h2>Valoración y Opiniones</h2>
-            <p class="section-desc">¡Queremos saber qué opinas de E4All! Deja tu puntuación y comentario a continuación:</p>
-
-            <div class="rating-container">
-                <form id="ratingForm" class="rating-form">
-                    <div class="form-group">
-                        <label for="userName">Nombre / Apodo:</label>
-                        <input type="text" id="userName" placeholder="Escribe tu nombre..." required>
-                    </div>
-
-                    <div class="form-group">
-                        <label>Tu Puntuación:</label>
-                        <div class="star-rating">
-                            <span class="star" data-value="1">&#9733;</span>
-                            <span class="star" data-value="2">&#9733;</span>
-                            <span class="star" data-value="3">&#9733;</span>
-                            <span class="star" data-value="4">&#9733;</span>
-                            <span class="star" data-value="5">&#9733;</span>
-                        </div>
-                        <input type="hidden" id="selectedRating" value="0" required>
-                    </div>
-
-                    <div class="form-group">
-                        <label for="userComment">Tu Opinión / Comentario:</label>
-                        <textarea id="userComment" rows="4" placeholder="¿Qué te pareció la combinación de preguntas y exploración 3D?" required></textarea>
-                    </div>
-
-                    <button type="submit" class="btn-submit">Enviar Valoración</button>
-                </form>
-
-                <div class="comments-list" id="commentsList">
-                    <h3>Reseñas de Jugadores</h3>
-                    <!-- Reseña de ejemplo -->
-                    <div class="comment-card">
-                        <div class="comment-header">
-                            <strong>Estudiante_01</strong>
-                            <span class="comment-stars">★★★★★</span>
-                        </div>
-                        <p>¡Me encantó la mecánica de responder abriendo puertas! Es muy interactivo y divertido para repasar.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
         <!-- Equipo de Desarrollo (6 Integrantes) -->
         <section id="equipo" class="card-section">
             <h2>Equipo de Desarrollo</h2>
@@ -419,6 +373,44 @@
             <p>Descarga la versión ejecutable oficial para PC Windows y vive la experiencia completa:</p>
             <a href="https://github.com/3lp3p3juan12345678-jpg/E4All/releases/download/v1.0/E4All.zip" class="btn-download">Descargar E4All (.zip)</a>
         </section>
+
+        <!-- Seccion de Valoración y Comentarios (Sin campo de correo) -->
+        <section id="valoracion" class="card-section">
+            <h2>Valoración y Opiniones</h2>
+            <p class="section-desc">¡Queremos saber qué opinas de E4All! Deja tu puntuación y comentario a continuación (se muestra aquí mismo, en esta página, mientras la tengas abierta):</p>
+
+            <div class="rating-container">
+                <form id="ratingForm" class="rating-form">
+                    <div class="form-group">
+                        <label for="userName">Nombre / Apodo:</label>
+                        <input type="text" id="userName" placeholder="Escribe tu nombre..." required>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Tu Puntuación:</label>
+                        <div class="star-rating">
+                            <span class="star" data-value="1">&#9733;</span>
+                            <span class="star" data-value="2">&#9733;</span>
+                            <span class="star" data-value="3">&#9733;</span>
+                            <span class="star" data-value="4">&#9733;</span>
+                            <span class="star" data-value="5">&#9733;</span>
+                        </div>
+                        <input type="hidden" id="selectedRating" value="0" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="userComment">Tu Opinión / Comentario:</label>
+                        <textarea id="userComment" rows="4" placeholder="¿Qué te pareció la combinación de preguntas y exploración 3D?" required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn-submit">Enviar Valoración</button>
+                </form>
+
+                <div class="comments-list" id="commentsList">
+                    <h3>Reseñas de Jugadores</h3>
+                </div>
+            </div>
+        </section>
     </main>
 
     <!-- Modal / Visor de Imágenes Integrado -->
@@ -460,14 +452,25 @@
         const ratingInput = document.getElementById('selectedRating');
         const ratingForm = document.getElementById('ratingForm');
         const commentsList = document.getElementById('commentsList');
+        let currentRating = 0;
 
         stars.forEach(star => {
             star.addEventListener('click', function() {
-                const val = this.getAttribute('data-value');
+                const val = parseInt(this.getAttribute('data-value'));
+
+                // Si el usuario le da clic a la misma estrella ya seleccionada, se quita la calificación (vuelve a 0)
+                if (val === currentRating) {
+                    currentRating = 0;
+                    ratingInput.value = 0;
+                    stars.forEach(s => s.classList.remove('active'));
+                    return;
+                }
+
+                currentRating = val;
                 ratingInput.value = val;
-                
+
                 stars.forEach(s => {
-                    if (s.getAttribute('data-value') <= val) {
+                    if (parseInt(s.getAttribute('data-value')) <= val) {
                         s.classList.add('active');
                     } else {
                         s.classList.remove('active');
@@ -499,11 +502,12 @@
                 <p>${comment}</p>
             `;
 
-            commentsList.insertBefore(newComment, commentsList.children[1]);
+            commentsList.appendChild(newComment);
 
             // Limpiar formulario
             ratingForm.reset();
             ratingInput.value = "0";
+            currentRating = 0;
             stars.forEach(s => s.classList.remove('active'));
         });
     </script>

@@ -508,25 +508,49 @@
                 return;
             }
 
-            const starStr = '★'.repeat(rating) + '☆'.repeat(5 - rating);
+            const submitBtn = ratingForm.querySelector('.btn-submit');
+            submitBtn.disabled = true;
+            submitBtn.textContent = "Enviando...";
 
-            const newComment = document.createElement('div');
-            newComment.className = 'comment-card';
-            newComment.innerHTML = `
-                <div class="comment-header">
-                    <strong>${name}</strong>
-                    <span class="comment-stars">${starStr}</span>
-                </div>
-                <p>${comment}</p>
-            `;
+            reviewsRef.add({
+                name: name,
+                rating: rating,
+                comment: comment,
+                timestamp: firebase.firestore.FieldValue.serverTimestamp()
+            }).then(() => {
+                // Limpiar formulario
+                ratingForm.reset();
+                ratingInput.value = "0";
+                currentRating = 0;
+                stars.forEach(s => s.classList.remove('active'));
+            }).catch((error) => {
+                alert("Hubo un error al guardar tu reseña. Intenta de nuevo.");
+                console.error(error);
+            }).finally(() => {
+                submitBtn.disabled = false;
+                submitBtn.textContent = "Enviar Valoración";
+            });
+        });
 
-            commentsList.appendChild(newComment);
+        // Escuchar cambios en tiempo real y mostrar todas las reseñas guardadas
+        reviewsRef.orderBy("timestamp", "desc").onSnapshot((snapshot) => {
+            commentsList.querySelectorAll('.comment-card').forEach(el => el.remove());
 
-            // Limpiar formulario
-            ratingForm.reset();
-            ratingInput.value = "0";
-            currentRating = 0;
-            stars.forEach(s => s.classList.remove('active'));
+            snapshot.forEach((doc) => {
+                const data = doc.data();
+                const starStr = '★'.repeat(data.rating) + '☆'.repeat(5 - data.rating);
+
+                const newComment = document.createElement('div');
+                newComment.className = 'comment-card';
+                newComment.innerHTML = `
+                    <div class="comment-header">
+                        <strong>${data.name}</strong>
+                        <span class="comment-stars">${starStr}</span>
+                    </div>
+                    <p>${data.comment}</p>
+                `;
+                commentsList.appendChild(newComment);
+            });
         });
     </script>
 </body>

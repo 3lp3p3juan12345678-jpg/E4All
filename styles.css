@@ -496,3 +496,131 @@ footer {
     color: #6c7895;
     text-align: center;
 }
+
+/* ==========================================
+   SECCIÓN DE VALORACIÓN Y RESEÑAS
+   ========================================== */
+.rating-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.rating-form {
+    background: #1c2138;
+    padding: 25px;
+    border-radius: 12px;
+    border: 1px solid #28304f;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    text-align: left;
+}
+
+.form-group label {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.form-group input[type="text"],
+.form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #28304f;
+    background: #121526;
+    color: #ffffff;
+    font-family: inherit;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.form-group input[type="text"]:focus,
+.form-group textarea:focus {
+    border-color: #00d2ff;
+}
+
+/* Sistema de estrellas interactivo */
+.star-rating {
+    display: flex;
+    gap: 8px;
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+.star {
+    color: #555555;
+    transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.star:hover,
+.star.active {
+    color: #FFD60A;
+    transform: scale(1.15);
+}
+
+.btn-submit {
+    background-color: #007acc;
+    color: #ffffff;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-submit:hover {
+    background-color: #00d2ff;
+    color: #0b0d17;
+    transform: translateY(-2px);
+}
+
+/* Lista de Comentarios */
+.comments-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: left;
+}
+
+.comments-list h3 {
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.comment-card {
+    background: #1c2138;
+    padding: 15px 20px;
+    border-radius: 8px;
+    border-left: 4px solid #00d2ff;
+}
+
+.comment-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.comment-header strong {
+    color: #ffffff;
+}
+
+.comment-stars {
+    color: #FFD60A;
+    letter-spacing: 2px;
+}
+
+.comment-card p {
+    color: #9aa2b5;
+    margin: 0;
+    font-size: 0.95rem;
+}

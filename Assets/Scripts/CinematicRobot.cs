@@ -10,6 +10,11 @@ public class CinematicRobot : MonoBehaviour
     private Animator animator;
     private bool isMoving = false;
 
+    void Awake()
+    {
+        DontDestroyOnLoad(gameObject);
+    }
+
     void Start()
     {
         animator = GetComponent<Animator>();

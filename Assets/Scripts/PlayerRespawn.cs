@@ -43,8 +43,8 @@ public class PlayerRespawn : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        // 1. Si toca una zona de muerte específica (Lava, trampas, etc.)
-        if (other.CompareTag("DeadZone") || other.CompareTag("Trap"))
+        // 1. Si toca una zona de muerte (DeadZone)
+        if (other.CompareTag("DeadZone"))
         {
             LoseLifeAndRespawn();
         }
@@ -64,13 +64,13 @@ public class PlayerRespawn : MonoBehaviour
                 playerHealth.ResetHealth(); // ¡Te devuelve los 3 núcleos al máximo!
                 Debug.Log("¡Portal cruzado! Salud restaurada al máximo.");
             }
-            
+
             // Te teletransporta al SpawnPoint principal de origen
-            RespawnToInitial(); 
+            RespawnToInitial();
         }
     }
 
-    // Método centralizado para quitar vida y decidir a dónde reaparecer (solo para trampas/vacío)
+    // Método centralizado para quitar vida y decidir a dónde reaparecer (solo para zonas de muerte/vacío)
     void LoseLifeAndRespawn()
     {
         if (playerHealth != null)
@@ -123,6 +123,30 @@ public class PlayerRespawn : MonoBehaviour
         {
             rb.linearVelocity = Vector3.zero;
             rb.angularVelocity = Vector3.zero;
+        }
+    }
+
+    // ---- Para el sistema de guardado ----
+
+    // Devuelve el nombre del checkpoint actual (para poder guardarlo)
+    public string GetCurrentCheckpointName()
+    {
+        return currentSpawnPoint != null ? currentSpawnPoint.name : "";
+    }
+
+    // Busca en la escena un checkpoint por su nombre y lo asigna como actual (para restaurarlo al cargar)
+    public void SetCurrentCheckpointByName(string checkpointName)
+    {
+        if (string.IsNullOrEmpty(checkpointName)) return;
+
+        GameObject[] checkpoints = GameObject.FindGameObjectsWithTag("Checkpoint");
+        foreach (GameObject cp in checkpoints)
+        {
+            if (cp.name == checkpointName)
+            {
+                currentSpawnPoint = cp.transform;
+                return;
+            }
         }
     }
 }

@@ -2,6 +2,10 @@ using UnityEngine;
 
 public class DoorOpen : MonoBehaviour
 {
+    [Header("Identificador único de esta puerta (opcional)")]
+    [Tooltip("Solo si quieres un nombre más legible, ej: PuertaFacil. Si lo dejas vacío, se genera uno automático según su posición en la jerarquía (recomendado si tienes muchas puertas, como las de las preguntas).")]
+    public string doorId;
+
     [Header("Interacción")]
     [SerializeField] private KeyCode interactKey = KeyCode.E;
     [SerializeField] private float interactDistance = 3.5f;
@@ -79,5 +83,39 @@ public class DoorOpen : MonoBehaviour
     {
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireSphere(transform.position, interactDistance);
+    }
+
+    // ---- Para el sistema de guardado ----
+
+    // Devuelve el identificador único: el que escribiste a mano, o si está vacío,
+    // uno generado automático según su posición exacta en la jerarquía (nunca se repite).
+    public string GetDoorId()
+    {
+        if (!string.IsNullOrEmpty(doorId))
+        {
+            return doorId;
+        }
+
+        string path = gameObject.name;
+        Transform current = transform.parent;
+        while (current != null)
+        {
+            path = current.name + "/" + path;
+            current = current.parent;
+        }
+        return path;
+    }
+
+    // Permite que otros scripts (PlayerPositionSave) lean si está abierta
+    public bool IsOpen => isOpen;
+
+    // Permite restaurar el estado guardado. instant=true la coloca de una vez, sin animar ni sonar.
+    public void SetOpenState(bool open, bool instant = true)
+    {
+        isOpen = open;
+        if (instant)
+        {
+            transform.localRotation = isOpen ? openRotation : closedRotation;
+        }
     }
 }

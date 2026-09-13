@@ -1,0 +1,1 @@
+using UnityEngine; public class PlayerFootsteps : MonoBehaviour { public AudioClip[] footstepSounds; public AudioSource audioSource; [Range(0f, 1f)] public float volume = 0.6f; void OnFootstep() { if (footstepSounds.Length == 0 || audioSource == null) return; AudioClip clip = footstepSounds[Random.Range(0, footstepSounds.Length)]; audioSource.PlayOneShot(clip, volume); } } 

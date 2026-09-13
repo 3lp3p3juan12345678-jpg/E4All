@@ -24,7 +24,7 @@ public class PlayerHealth : MonoBehaviour
     {
         currentCores--;
         UpdateCoresUI();
-        
+
         Debug.Log("Núcleos de energía restantes: " + currentCores);
 
         if (currentCores > 0)
@@ -67,7 +67,7 @@ public class PlayerHealth : MonoBehaviour
     public void AddEnergyCore(int amount)
     {
         currentCores += amount;
-        if (currentCores > maxEnergyCores) 
+        if (currentCores > maxEnergyCores)
         {
             currentCores = maxEnergyCores;
         }
@@ -78,6 +78,19 @@ public class PlayerHealth : MonoBehaviour
     public void ResetHealth()
     {
         currentCores = maxEnergyCores;
+        UpdateCoresUI();
+    }
+
+    // Devuelve la cantidad actual de núcleos (para poder guardarla)
+    public int GetCurrentCores()
+    {
+        return currentCores;
+    }
+
+    // Asigna directamente la cantidad de núcleos (para poder restaurarla al cargar)
+    public void SetCores(int amount)
+    {
+        currentCores = Mathf.Clamp(amount, 0, maxEnergyCores);
         UpdateCoresUI();
     }
 }

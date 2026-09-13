@@ -12,28 +12,43 @@ public class SecuenciaLuces : MonoBehaviour
         public AudioSource audioLuz;
     }
 
-    public List<ElementoDeLuz> secuenciaDeLuces; 
-    
+    public List<ElementoDeLuz> secuenciaDeLuces;
+
     // Tiempo que esperas ANTES de empezar la secuencia
-    public float tiempoDeEsperaInicial = 3.0f; 
-    
+    public float tiempoDeEsperaInicial = 3.0f;
+
     // Tiempo entre cada luz individual
-    public float tiempoEntreLuces = 0.5f; 
+    public float tiempoEntreLuces = 0.5f;
+
+    private const string CLAVE_YA_REPRODUCIDA = "SecuenciaLucesReproducida";
 
     void Start()
     {
-        // Apagamos todas las luces al iniciar y detenemos sus audios
-        foreach (ElementoDeLuz elemento in secuenciaDeLuces)
+        bool yaSeReprodujo = PlayerPrefs.GetInt(CLAVE_YA_REPRODUCIDA, 0) == 1;
+
+        if (yaSeReprodujo)
         {
-            if (elemento.luzDelTecho != null)
-                elemento.luzDelTecho.enabled = false;
-
-            if (elemento.audioLuz != null)
-                elemento.audioLuz.Stop();
+            // Ya se vio la animación antes: dejamos todas las luces encendidas de una vez, sin repetir el efecto.
+            foreach (ElementoDeLuz elemento in secuenciaDeLuces)
+            {
+                if (elemento.luzDelTecho != null)
+                    elemento.luzDelTecho.enabled = true;
+            }
         }
+        else
+        {
+            // Primera vez: apagamos todo y reproducimos la secuencia animada normal.
+            foreach (ElementoDeLuz elemento in secuenciaDeLuces)
+            {
+                if (elemento.luzDelTecho != null)
+                    elemento.luzDelTecho.enabled = false;
 
-        // Iniciamos la secuencia
-        StartCoroutine(EncenderYReproducirEnSecuencia());
+                if (elemento.audioLuz != null)
+                    elemento.audioLuz.Stop();
+            }
+
+            StartCoroutine(EncenderYReproducirEnSecuencia());
+        }
     }
 
     IEnumerator EncenderYReproducirEnSecuencia()
@@ -46,7 +61,7 @@ public class SecuenciaLuces : MonoBehaviour
             // Encendemos la luz
             if (elemento.luzDelTecho != null)
             {
-                elemento.luzDelTecho.enabled = true; 
+                elemento.luzDelTecho.enabled = true;
             }
 
             // Reproducimos su sonido correspondiente
@@ -56,7 +71,11 @@ public class SecuenciaLuces : MonoBehaviour
             }
 
             // Espera antes de pasar a la siguiente luz
-            yield return new WaitForSeconds(tiempoEntreLuces); 
+            yield return new WaitForSeconds(tiempoEntreLuces);
         }
+
+        // Marcamos que ya se reprodujo, para no repetirla en futuras cargas
+        PlayerPrefs.SetInt(CLAVE_YA_REPRODUCIDA, 1);
+        PlayerPrefs.Save();
     }
 }

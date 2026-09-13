@@ -4,46 +4,83 @@ using UnityEngine;
 
 public class LucesPuerta : MonoBehaviour
 {
-    // Arrastra aquí únicamente las luces que están arriba de la puerta
-    public List<Light> lucesDePuerta; 
+    // Un grupo de luces por cada sala/puerta (Facil, Intermedio, Dificil, etc.)
+    [System.Serializable]
+    public class GrupoLucesPuerta
+    {
+        [Tooltip("Debe coincidir EXACTAMENTE con el Trophy Id de esa sala en GoalTrophy (ej: Facil, Intermedio, Dificil)")]
+        public string salaId;
+        public List<Light> luces;
+    }
 
-    // Colores específicos para la puerta
+    [Header("Grupos de luces, uno por sala")]
+    public List<GrupoLucesPuerta> gruposDeLuces;
+
+    [Header("Colores")]
     public Color colorRojoAlInicio = Color.red;
     public Color colorVerdeAlCompletar = Color.green;
 
-    // Tiempo entre cada luz de la puerta (si quieres efecto en cadena también aquí)
+    [Header("Efecto en cadena")]
     public float tiempoEntreLuces = 0.2f;
 
     void Start()
     {
-        // Al iniciar el juego, configuramos las luces de la puerta en rojo y encendidas (o como prefieras)
-        foreach (Light luz in lucesDePuerta)
+        // Al iniciar, todas las luces de todas las salas quedan en rojo
+        foreach (GrupoLucesPuerta grupo in gruposDeLuces)
         {
-            if (luz != null)
+            foreach (Light luz in grupo.luces)
             {
-                luz.color = colorRojoAlInicio;
-                luz.enabled = true; // O ponlo en false si quieres que inicien apagadas
+                if (luz != null)
+                {
+                    luz.color = colorRojoAlInicio;
+                    luz.enabled = true;
+                }
             }
         }
     }
 
-    // Esta función la llamas desde tu portal cuando el jugador regresa
-    public void ActivarLucesVerdesPuerta()
+    // Llamado por GoalTrophy cuando el jugador consigue el trofeo de una sala específica (con animación en cadena)
+    public void ActivarLucesVerdesPuerta(string salaId)
     {
-        StartCoroutine(CambiarVerdeEnCadena());
+        GrupoLucesPuerta grupo = gruposDeLuces.Find(g => g.salaId == salaId);
+        if (grupo != null)
+        {
+            StartCoroutine(CambiarVerdeEnCadena(grupo.luces));
+        }
+        else
+        {
+            Debug.LogWarning($"[LucesPuerta] No se encontró ningún grupo con salaId = \"{salaId}\"");
+        }
     }
 
-    IEnumerator CambiarVerdeEnCadena()
+    IEnumerator CambiarVerdeEnCadena(List<Light> luces)
     {
-        foreach (Light luz in lucesDePuerta)
+        foreach (Light luz in luces)
         {
             if (luz != null)
             {
-                luz.color = colorVerdeAlCompletar; // Cambia a verde
+                luz.color = colorVerdeAlCompletar;
                 luz.enabled = true;
             }
 
             yield return new WaitForSeconds(tiempoEntreLuces);
+        }
+    }
+
+    // Usado por el sistema de guardado: pone en verde SOLO el grupo de esa sala, de una vez, sin animación
+    public void PonerVerdeInmediato(string salaId)
+    {
+        GrupoLucesPuerta grupo = gruposDeLuces.Find(g => g.salaId == salaId);
+        if (grupo != null)
+        {
+            foreach (Light luz in grupo.luces)
+            {
+                if (luz != null)
+                {
+                    luz.color = colorVerdeAlCompletar;
+                    luz.enabled = true;
+                }
+            }
         }
     }
 }

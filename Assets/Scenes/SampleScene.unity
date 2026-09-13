@@ -1784,6 +1784,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -3015,6 +3016,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -3155,6 +3157,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -5173,6 +5176,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -6955,6 +6959,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -7231,6 +7236,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -9681,6 +9687,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -11122,6 +11129,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -12271,6 +12279,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -12473,6 +12482,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -12660,6 +12670,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -13279,6 +13290,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -13407,6 +13419,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -14269,6 +14282,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -15790,6 +15804,131 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 73ffbc06802a247cfb1b26f4ee67eba8, type: 3}
   m_PrefabInstance: {fileID: 1227126314}
   m_PrefabAsset: {fileID: 0}
+--- !u!82 &141289141
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 141289132}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 8300000, guid: 09619372049e8d744830a0aeed72ff69, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &141289142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 141289132}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63fc029f67057e14e9efb6c36581bccb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerFootsteps
+  footstepSounds:
+  - {fileID: 8300000, guid: 09619372049e8d744830a0aeed72ff69, type: 3}
+  audioSource: {fileID: 141289141}
+  volume: 1
+--- !u!114 &141289144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 141289132}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6119b846f4ce2b6468645ac480b27c66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerPositionSave
 --- !u!1 &141660097
 GameObject:
   m_ObjectHideFlags: 0
@@ -16691,6 +16830,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -18423,6 +18563,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -19447,6 +19588,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -21163,6 +21305,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -24298,6 +24441,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -25023,6 +25167,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -25210,6 +25355,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -25285,6 +25431,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -25562,6 +25709,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -26134,6 +26282,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -27509,6 +27658,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -28968,6 +29118,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -31357,6 +31508,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -32553,6 +32705,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -32628,6 +32781,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -38841,6 +38995,139 @@ Light:
   m_LightUnit: 1
   m_LuxAtDistance: 1
   m_EnableSpotReflector: 1
+--- !u!1 &345741274
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 345741275}
+  - component: {fileID: 345741278}
+  - component: {fileID: 345741277}
+  - component: {fileID: 345741276}
+  m_Layer: 5
+  m_Name: BotonGuardarSalir
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &345741275
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 345741274}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 526606606}
+  m_Father: {fileID: 1015479984}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 579, y: -213.00003}
+  m_SizeDelta: {x: 500, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &345741276
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 345741274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 345741277}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 537659307}
+        m_TargetAssemblyTypeName: PauseManagerE4All, Assembly-CSharp
+        m_MethodName: GuardarYSalir
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &345741277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 345741274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &345741278
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 345741274}
+  m_CullTransparentMesh: 1
 --- !u!1 &346665747
 GameObject:
   m_ObjectHideFlags: 0
@@ -40470,6 +40757,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -44113,6 +44401,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -44188,6 +44477,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -44557,6 +44847,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -44632,6 +44923,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -45103,6 +45395,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -45171,11 +45464,6 @@ PrefabInstance:
       addedObject: {fileID: 1929007427}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 63595670e1005b644a5d30b65484a33d, type: 3}
---- !u!23 &386710303 stripped
-MeshRenderer:
-  m_CorrespondingSourceObject: {fileID: 6769232865276446175, guid: 63595670e1005b644a5d30b65484a33d, type: 3}
-  m_PrefabInstance: {fileID: 386710302}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &387973634
 GameObject:
   m_ObjectHideFlags: 0
@@ -47650,6 +47938,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -50815,7 +51104,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 438932964}
-  - component: {fileID: 438932963}
+  - component: {fileID: 438932965}
   m_Layer: 0
   m_Name: ControladorLucesPuerta
   m_TagString: Untagged
@@ -50823,28 +51112,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &438932963
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 438932962}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2c5c53984da76544381089fb5a8d2b15, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::LucesPuerta
-  lucesDePuerta:
-  - {fileID: 1752982562}
-  - {fileID: 994462477}
-  - {fileID: 1929007425}
-  - {fileID: 547301802}
-  - {fileID: 1558311189}
-  - {fileID: 1056895347}
-  colorRojoAlInicio: {r: 1, g: 0, b: 0, a: 1}
-  colorVerdeAlCompletar: {r: 0, g: 1, b: 0, a: 1}
-  tiempoEntreLuces: 0.2
 --- !u!4 &438932964
 Transform:
   m_ObjectHideFlags: 0
@@ -50860,6 +51127,34 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &438932965
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 438932962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c5c53984da76544381089fb5a8d2b15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LucesPuerta
+  gruposDeLuces:
+  - salaId: "F\xE1cil"
+    luces:
+    - {fileID: 547301802}
+    - {fileID: 1929007425}
+  - salaId: Intermedio
+    luces:
+    - {fileID: 1558311189}
+    - {fileID: 1056895347}
+  - salaId: "Dif\xEDcil"
+    luces:
+    - {fileID: 1752982562}
+    - {fileID: 994462477}
+  colorRojoAlInicio: {r: 1, g: 0, b: 0, a: 1}
+  colorVerdeAlCompletar: {r: 0, g: 1, b: 0, a: 1}
+  tiempoEntreLuces: 0.2
 --- !u!1 &439346027
 GameObject:
   m_ObjectHideFlags: 0
@@ -51039,6 +51334,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -56280,6 +56576,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -59567,6 +59864,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -59575,6 +59873,143 @@ MonoBehaviour:
   audioSource: {fileID: 844431483}
   openSound: {fileID: 8300000, guid: 44b63b0db16ce624b97e45ebde0a0971, type: 3}
   closeSound: {fileID: 8300000, guid: bc37ad25465405a428a26ff0facd9a7b, type: 3}
+--- !u!1 &503522689
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 503522690}
+  - component: {fileID: 503522692}
+  - component: {fileID: 503522691}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &503522690
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 503522689}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1363069024}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &503522691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 503522689}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Continuar
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 55
+  m_fontSizeBase: 55
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_characterHorizontalScale: 1
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &503522692
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 503522689}
+  m_CullTransparentMesh: 1
 --- !u!1 &505694975
 GameObject:
   m_ObjectHideFlags: 0
@@ -60917,6 +61352,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -61150,6 +61586,143 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 526403776}
   m_Mesh: {fileID: 4300000, guid: 670e9ab602834f049b0dac77d6a298d8, type: 3}
+--- !u!1 &526606605
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 526606606}
+  - component: {fileID: 526606608}
+  - component: {fileID: 526606607}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &526606606
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 526606605}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 345741275}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &526606607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 526606605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Guardar y Salir
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 55
+  m_fontSizeBase: 55
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_characterHorizontalScale: 1
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &526606608
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 526606605}
+  m_CullTransparentMesh: 1
 --- !u!1 &526812368
 GameObject:
   m_ObjectHideFlags: 0
@@ -62154,6 +62727,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -62215,6 +62789,52 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 0.14857101}
   m_Center: {x: 0, y: 0, z: 0.4257145}
+--- !u!1 &537659306
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 537659308}
+  - component: {fileID: 537659307}
+  m_Layer: 0
+  m_Name: PauseManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &537659307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 537659306}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0753313261c3ed443bf4368e9c4bc407, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PauseManagerE4All
+  menuPausaPanel: {fileID: 1015479981}
+  nombreEscenaMenu: LoadingScene
+--- !u!4 &537659308
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 537659306}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 959.48224, y: -0.00003, z: 1678.5823}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &538192548
 GameObject:
   m_ObjectHideFlags: 0
@@ -64098,6 +64718,145 @@ Transform:
   - {fileID: 431831942}
   m_Father: {fileID: 251560137}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &554005226
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 554005227}
+  - component: {fileID: 554005229}
+  - component: {fileID: 554005228}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &554005227
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 554005226}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1603406851}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &554005228
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 554005226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 'Salir
+
+'
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 55
+  m_fontSizeBase: 55
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_characterHorizontalScale: 1
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &554005229
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 554005226}
+  m_CullTransparentMesh: 1
 --- !u!1 &554009087
 GameObject:
   m_ObjectHideFlags: 0
@@ -64255,6 +65014,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -66886,6 +67646,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -68956,6 +69717,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -70160,6 +70922,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -70651,6 +71414,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -70726,6 +71490,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -71149,6 +71914,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -72715,6 +73481,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -74141,6 +74908,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -75625,6 +76393,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -76533,6 +77302,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -76608,6 +77378,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -77261,6 +78032,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -77368,6 +78140,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -77917,6 +78690,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -79355,6 +80129,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -80359,6 +81134,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -80568,6 +81344,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -83141,6 +83918,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -83420,6 +84198,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -90860,6 +91639,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -94813,6 +95593,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -95504,6 +96285,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -97150,9 +97932,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ad2bdb6bda204524ea109e67cdb90dd7, type: 3}
       insertIndex: -1
       addedObject: {fileID: 794281041}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ad2bdb6bda204524ea109e67cdb90dd7, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 794281048}
   m_SourcePrefab: {fileID: 100100000, guid: ad2bdb6bda204524ea109e67cdb90dd7, type: 3}
 --- !u!1 &794281040 stripped
 GameObject:
@@ -97171,8 +97950,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ed2a9252860d564fb475576cd134911, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GoalTrophy
+  trophyId: Intermedio
   trophyInLevel: {fileID: 794281040}
   trophyOnShelf: {fileID: 2094015471}
+  lucesDePuerta: {fileID: 438932965}
 --- !u!65 &794281042
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -97199,25 +97980,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: ad2bdb6bda204524ea109e67cdb90dd7, type: 3}
   m_PrefabInstance: {fileID: 794281039}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &794281048
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 794281040}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fdb231b179db80447a8a8c2a931405ba, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::TrofeoPuerta
-  luz1: {fileID: 1558311189}
-  luz2: {fileID: 1056895347}
-  focoMesh1: {fileID: 1504042274}
-  focoMesh2: {fileID: 928254452}
-  colorVerde: {r: 0, g: 1, b: 0, a: 1}
-  tagJugador: Player
-  desaparecerAlTocar: 1
 --- !u!1 &794627502
 GameObject:
   m_ObjectHideFlags: 0
@@ -97998,6 +98760,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -99047,6 +99810,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -100339,6 +101103,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -100875,6 +101640,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -101687,6 +102453,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -104308,6 +105075,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -104708,6 +105476,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -106435,6 +107204,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -109866,6 +110636,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -110937,6 +111708,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -113064,11 +113836,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 927954869}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!23 &928254452 stripped
-MeshRenderer:
-  m_CorrespondingSourceObject: {fileID: 6769232865276446175, guid: 63595670e1005b644a5d30b65484a33d, type: 3}
-  m_PrefabInstance: {fileID: 1972616629}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &930011480
 GameObject:
   m_ObjectHideFlags: 0
@@ -114838,6 +115605,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -116344,6 +117112,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -116892,6 +117661,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -120035,6 +120805,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -120110,6 +120881,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -120846,6 +121618,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -121034,6 +121807,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -121221,6 +121995,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -122423,6 +123198,85 @@ Transform:
   - {fileID: 236399284}
   m_Father: {fileID: 622516190}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1015479981
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1015479984}
+  - component: {fileID: 1015479983}
+  - component: {fileID: 1015479982}
+  m_Layer: 5
+  m_Name: MenuPausaPanel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1015479982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015479981}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.2, g: 0.2, b: 0.2, a: 0.9372549}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1015479983
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015479981}
+  m_CullTransparentMesh: 1
+--- !u!224 &1015479984
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015479981}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1363069024}
+  - {fileID: 345741275}
+  - {fileID: 1603406851}
+  - {fileID: 1892889516}
+  m_Father: {fileID: 1766861893}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: -200, y: -200}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1016799490
 GameObject:
   m_ObjectHideFlags: 0
@@ -123493,6 +124347,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -123680,6 +124535,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -124514,6 +125370,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -125090,6 +125947,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -126420,6 +127278,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -127202,6 +128061,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -129586,6 +130446,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -129668,9 +130529,6 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ec88e5b398bb8d641bf1f4a447c2ec42, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1086477057}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ec88e5b398bb8d641bf1f4a447c2ec42, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 1086477056}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ec88e5b398bb8d641bf1f4a447c2ec42, type: 3}
       insertIndex: -1
@@ -129698,27 +130556,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ed2a9252860d564fb475576cd134911, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GoalTrophy
+  trophyId: "Dif\xEDcil"
   trophyInLevel: {fileID: 1086477055}
   trophyOnShelf: {fileID: 438353276}
---- !u!114 &1086477057
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1086477055}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fdb231b179db80447a8a8c2a931405ba, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::TrofeoPuerta
-  luz1: {fileID: 1752982562}
-  luz2: {fileID: 994462477}
-  focoMesh1: {fileID: 1661610989}
-  focoMesh2: {fileID: 2132464224}
-  colorVerde: {r: 0, g: 1, b: 0, a: 1}
-  tagJugador: Player
-  desaparecerAlTocar: 1
+  lucesDePuerta: {fileID: 438932965}
 --- !u!65 &1086477060
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -129984,6 +130825,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: da627442c8850ec4b8f396c9df75133e, type: 3}
       propertyPath: m_Name
       value: SalidaMenu
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da627442c8850ec4b8f396c9df75133e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -130434,6 +131279,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -130803,6 +131649,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -131186,6 +132033,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -131698,6 +132546,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -132839,6 +133688,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -133566,6 +134416,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -134330,6 +135181,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -134555,6 +135407,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -135103,6 +135956,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -137332,6 +138186,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -141829,6 +142684,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -142747,6 +143603,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -143046,6 +143903,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -143369,6 +144227,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -144169,6 +145028,15 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 73ffbc06802a247cfb1b26f4ee67eba8, type: 3}
       insertIndex: -1
       addedObject: {fileID: 141289133}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 73ffbc06802a247cfb1b26f4ee67eba8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 141289142}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 73ffbc06802a247cfb1b26f4ee67eba8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 141289141}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 73ffbc06802a247cfb1b26f4ee67eba8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 141289144}
   m_SourcePrefab: {fileID: 100100000, guid: 73ffbc06802a247cfb1b26f4ee67eba8, type: 3}
 --- !u!1 &1227130508
 GameObject:
@@ -146202,6 +147070,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -148462,6 +149331,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -151493,6 +152363,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -152410,6 +153281,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -154199,6 +155071,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -154657,6 +155530,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -160235,6 +161109,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -161048,6 +161923,139 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1361694237}
   m_Mesh: {fileID: 4300000, guid: bcf2f716d78860f45ba4cda490856ec0, type: 3}
+--- !u!1 &1363069023
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1363069024}
+  - component: {fileID: 1363069027}
+  - component: {fileID: 1363069026}
+  - component: {fileID: 1363069025}
+  m_Layer: 5
+  m_Name: BotonReaundar
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1363069024
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1363069023}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 503522690}
+  m_Father: {fileID: 1015479984}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -559, y: -213}
+  m_SizeDelta: {x: 500, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1363069025
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1363069023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0, g: 1, b: 0, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1363069026}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 537659307}
+        m_TargetAssemblyTypeName: PauseManagerE4All, Assembly-CSharp
+        m_MethodName: ReanudarJuego
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1363069026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1363069023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1363069027
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1363069023}
+  m_CullTransparentMesh: 1
 --- !u!1001 &1363779038
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -161591,6 +162599,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -161796,6 +162805,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -161871,6 +162881,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -164395,6 +165406,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -164470,6 +165482,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -164968,6 +165981,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -166268,6 +167282,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -166408,6 +167423,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -166867,6 +167883,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -167288,6 +168305,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -167796,6 +168814,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -168724,6 +169743,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -171519,6 +172539,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -171627,6 +172648,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -172736,6 +173758,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -173214,6 +174237,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -174881,6 +175905,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -175317,6 +176342,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -176502,11 +177528,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6769232865274545983, guid: 63595670e1005b644a5d30b65484a33d, type: 3}
   m_PrefabInstance: {fileID: 1977428522}
   m_PrefabAsset: {fileID: 0}
---- !u!23 &1504042274 stripped
-MeshRenderer:
-  m_CorrespondingSourceObject: {fileID: 6769232865276446175, guid: 63595670e1005b644a5d30b65484a33d, type: 3}
-  m_PrefabInstance: {fileID: 1977428522}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1504783722
 GameObject:
   m_ObjectHideFlags: 0
@@ -176785,6 +177806,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -178132,6 +179154,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -179083,6 +180106,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -180609,6 +181633,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -181526,6 +182551,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -182178,6 +183204,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -187570,6 +188597,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -187645,6 +188673,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -187901,6 +188930,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -188089,6 +189119,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -188617,6 +189648,139 @@ Transform:
   - {fileID: 1276738241}
   m_Father: {fileID: 694181950}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1603406850
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1603406851}
+  - component: {fileID: 1603406854}
+  - component: {fileID: 1603406853}
+  - component: {fileID: 1603406852}
+  m_Layer: 5
+  m_Name: BotonSalirMenu
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1603406851
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1603406850}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 554005227}
+  m_Father: {fileID: 1015479984}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 17, y: -212.00003}
+  m_SizeDelta: {x: 500, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1603406852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1603406850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 1, g: 0, b: 0, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1603406853}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 537659307}
+        m_TargetAssemblyTypeName: PauseManagerE4All, Assembly-CSharp
+        m_MethodName: SalirSinGuardar
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1603406853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1603406850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1603406854
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1603406850}
+  m_CullTransparentMesh: 1
 --- !u!1 &1604297009
 GameObject:
   m_ObjectHideFlags: 0
@@ -188684,6 +189848,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -193094,6 +194259,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -193259,6 +194425,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -194396,6 +195563,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -194637,6 +195805,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -194929,11 +196098,6 @@ PrefabInstance:
       addedObject: {fileID: 1752982564}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 63595670e1005b644a5d30b65484a33d, type: 3}
---- !u!23 &1661610989 stripped
-MeshRenderer:
-  m_CorrespondingSourceObject: {fileID: 6769232865276446175, guid: 63595670e1005b644a5d30b65484a33d, type: 3}
-  m_PrefabInstance: {fileID: 1661610988}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1661696589
 GameObject:
   m_ObjectHideFlags: 0
@@ -197555,6 +198719,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -197795,6 +198960,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -199259,6 +200425,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -200536,6 +201703,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -201837,6 +203005,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -204026,6 +205195,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -204213,6 +205383,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -206366,6 +207537,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -206651,6 +207823,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 947109615}
+  - {fileID: 1015479984}
   m_Father: {fileID: 968519792}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -206717,7 +207890,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
   m_UseReflectionProbes: 0
-  m_AdditionalShaderChannelsFlag: 0
+  m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
@@ -209239,6 +210412,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -210469,6 +211643,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -210895,6 +212070,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -213338,7 +214514,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1824907949}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 51cbf4c5cc05fc94fa4b27cb65da0ab5, type: 3}
   m_Name: 
@@ -214346,6 +215522,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -215191,6 +216368,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -216195,6 +217373,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -217341,6 +218520,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -217927,6 +219107,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -218928,6 +220109,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -219296,6 +220478,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -219411,6 +220594,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -222883,9 +224067,6 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2e6b8ccf51dd48f4db508a14c4178aa8, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1888280312}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2e6b8ccf51dd48f4db508a14c4178aa8, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 1888280311}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2e6b8ccf51dd48f4db508a14c4178aa8, type: 3}
       insertIndex: -1
@@ -222913,27 +224094,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ed2a9252860d564fb475576cd134911, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GoalTrophy
+  trophyId: "F\xE1cil"
   trophyInLevel: {fileID: 1888280310}
   trophyOnShelf: {fileID: 548092729}
---- !u!114 &1888280312
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1888280310}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fdb231b179db80447a8a8c2a931405ba, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::TrofeoPuerta
-  luz1: {fileID: 1929007425}
-  luz2: {fileID: 547301802}
-  focoMesh1: {fileID: 386710303}
-  focoMesh2: {fileID: 1911579437}
-  colorVerde: {r: 0, g: 1, b: 0, a: 1}
-  tagJugador: Player
-  desaparecerAlTocar: 1
+  lucesDePuerta: {fileID: 438932965}
 --- !u!65 &1888280315
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -223313,6 +224477,145 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1892861666}
   m_Mesh: {fileID: 4300000, guid: 670e9ab602834f049b0dac77d6a298d8, type: 3}
+--- !u!1 &1892889515
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1892889516}
+  - component: {fileID: 1892889518}
+  - component: {fileID: 1892889517}
+  m_Layer: 5
+  m_Name: E4All
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1892889516
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1892889515}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1015479984}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 21, y: 250}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1892889517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1892889515}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 'E4All
+
+'
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190335
+  m_fontColor: {r: 1, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: 2192
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 500
+  m_fontSizeBase: 500
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_characterHorizontalScale: 1
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: -565.694, y: -170.67328, z: -617.74585, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1892889518
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1892889515}
+  m_CullTransparentMesh: 1
 --- !u!1 &1895220002
 GameObject:
   m_ObjectHideFlags: 0
@@ -224570,6 +225873,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -224826,6 +226130,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -225035,6 +226340,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -225646,11 +226952,6 @@ PrefabInstance:
       addedObject: {fileID: 547301804}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 63595670e1005b644a5d30b65484a33d, type: 3}
---- !u!23 &1911579437 stripped
-MeshRenderer:
-  m_CorrespondingSourceObject: {fileID: 6769232865276446175, guid: 63595670e1005b644a5d30b65484a33d, type: 3}
-  m_PrefabInstance: {fileID: 1911579436}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1912610962
 GameObject:
   m_ObjectHideFlags: 0
@@ -226191,6 +227492,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -228467,6 +229769,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -228639,6 +229942,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -230414,6 +231718,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -231338,6 +232643,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -231654,6 +232960,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -232665,6 +233972,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -232740,6 +234048,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -234538,6 +235847,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -234837,6 +236147,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -235317,6 +236628,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -235609,6 +236921,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -237266,6 +238579,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -237453,6 +238767,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -237605,6 +238920,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -237770,6 +239086,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -238264,6 +239581,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -238598,6 +239916,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -238988,6 +240307,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -241465,6 +242785,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -241579,6 +242900,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -241871,6 +243193,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -242339,6 +243662,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -243115,6 +244439,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -245297,6 +246622,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -245634,6 +246960,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -250085,11 +251412,6 @@ PrefabInstance:
       addedObject: {fileID: 994462479}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 63595670e1005b644a5d30b65484a33d, type: 3}
---- !u!23 &2132464224 stripped
-MeshRenderer:
-  m_CorrespondingSourceObject: {fileID: 6769232865276446175, guid: 63595670e1005b644a5d30b65484a33d, type: 3}
-  m_PrefabInstance: {fileID: 2132464223}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2132504317
 GameObject:
   m_ObjectHideFlags: 0
@@ -250157,6 +251479,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2f362f26a7d6c046b04a9c6783c5371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorOpen
+  doorId: 
   interactKey: 101
   interactDistance: 3.5
   promptUI: {fileID: 0}
@@ -252038,3 +253361,4 @@ SceneRoots:
   - {fileID: 1574515039}
   - {fileID: 1089237786}
   - {fileID: 964780818}
+  - {fileID: 537659308}
